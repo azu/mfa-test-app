@@ -12,15 +12,14 @@
   },
   "license": "MIT",
   "author": "azu",
-  "main": "lib/mfa-test-app.js",
+  "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "files": [
-    "bin/",
-    "lib/",
-    "src/"
+    "index.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
